@@ -12,6 +12,9 @@
 .yellow-btn{
     background-color: #FFC239;
 }
+.deep-green-btn{
+    background-color: #006A50;
+}
 /* shared styles */
 .bg-color{
     background-color: #F5F5F5;
@@ -218,7 +221,7 @@
     font-weight: 600;
     font-size: 16px;
     color: #FFFFFF;
-    border: 0px solid #006A50;
+    border: 0px solid;
     padding: 11px 20px;
     border-radius: 8px;
     margin: 5px 24px 0px 24px;
@@ -370,9 +373,108 @@ select{
     padding: 48px;
     background-color: #ffffff;
     border-radius: 24px;
+    gap: 32px;
+    margin-bottom: 24px;
 }
 .recent-news-card-img-1{
     width: 408px;
     height: 306px;
     border-radius: 24px;
+    margin: 48px 0px;
+}
+.recent-news-card-info{
+    margin: 20px 48px;
+}
+.recent-news-card-title{
+    font-weight: bold; 
+    font-size: 32px;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: rgba(14, 14, 14, 0.8);
+}
+.recent-news-card-logo{
+    width: 134px;
+    height: 40px;
+}
+time{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(14, 14, 14, 0.7);
+}
+.time-1{
+    margin-top: 12px;
+}
+.t-1{
+    margin-left: 12px;
+}
+.recent-news-card-description{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(14, 14, 14, 0.7);
+}
+.recent-news-card-btn{
+    font-family: 'Fira Sans', serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 0px solid;
+    padding: 13px 26px;
+    border-radius: 8px;
+}
+.recent-news-card-btn:hover{
+    background-color: #F5F5F5;
+    border: 1px solid #006A50;
+    color: #006A50;
+    cursor: pointer;
+}
+/* donate styles */
+
+.donate{
+    margin: 0px 160px 80px 160px;
+}
+.donate-info{
+    margin-bottom: 32px;
+}
+.donate-title{
+    align-items: center;
+}
+.donate-title-header{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.donate-description{
+    align-items: center;
+    padding: 0px 220px;
+}
+.donate-title-description{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+}
+.doante-card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.donate-card {
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 40px;
+    width: 264px;
+    height: 128px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
 }
