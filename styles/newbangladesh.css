@@ -224,11 +224,11 @@
     border: 0px solid;
     padding: 11px 20px;
     border-radius: 8px;
+}
+.vision-button{
     margin: 5px 24px 0px 24px;
 }
-.vision-card-btn-2{
-    margin-top: 28px;
-}
+
 .vision-card-btn-1:hover{
     background-color: #F5F5F5;
     border: 1px solid #5490F5;
@@ -295,49 +295,37 @@
     color: #0E0E0E;
 }
 .opinion-table{
-    width: 1500px;
-    height: 409px;
     padding: 32px;
     border-radius: 16px;
     background-color: white;
 }
 .o-table{
+    width: 94%;
     border-collapse: collapse;
-    /* width: 1216px; */
-    height: 345px;
     margin: 32px;
 }
-.tablehead{
-    
-}
 th{
+    width: 117.4%;
+    display: flex;
     background-color: #C6E4D6;
     padding: 24px;
     font-weight: 600;
     font-size: 20px;
     color: #0E0E0E;
-    
+    justify-content: space-between;    
 }
-.th-1{
+/* .th-1{
     text-align: left;
-    
-    /* width: 900px; */
 }
 .th-2{
-    margin-left: 1062px;
-}
-.th-3{
-    position: relative;
-      left: -1200px
-}
+    text-align: right;
+} */
 td{
     padding: 24px;
     text-align: left;
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
-.td-1{
-    width: 1140px;
-}
+
 select{
     background-color: #C6E4D6;
     padding: 10px 14px;
@@ -453,7 +441,6 @@ time{
 }
 .donate-description{
     align-items: center;
-    padding: 0px 220px;
 }
 .donate-title-description{
     font-weight: normal;
@@ -471,10 +458,184 @@ time{
 }
 
 .donate-card {
+    align-items: center;
+    justify-content: center;
     border-radius: 16px;
     background-color: #ffffff;
     padding: 40px;
-    width: 264px;
+    width: 243px;
     height: 128px;
     border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.donate-card:hover{
+    background-color: #C6E4D6;
+    border: 1px solid  rgba(14, 14, 14, 0.15);
+    cursor: pointer;
+}
+.donate-card-text{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: rgba(14, 14, 14, 0.8);
+}
+/* .donate-input{
+    align-items: center;
+    justify-content: center;
+    margin: 32px 124px 88px 124px;
+
+} */
+input[type="text"]{
+    padding: 20px 40px;
+    margin: 32px 44px;
+    width: 87%;
+    height: 24px;
+    align-items: top center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+input[type="text"]::placeholder{
+    padding: 20px 423px;
+    font-family: 'Fira Sans', serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: rgba(14, 14, 14, 0.3);
+}
+.donate-btn-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.donate-btn{
+    margin: 0px 5px;
+    font-family: 'Fira Sans', serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 0px solid;
+    padding: 13px 26px;
+    border-radius: 8px;
+}
+.donate-btn:hover{
+    background-color: #F5F5F5;
+    border: 1px solid #006A50;
+    color: #006A50;
+    cursor: pointer;
+}
+/* newsletter */
+.newsletter{
+    margin: 80px 160px;
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+    border-radius: 24px;
+    height: 300px;
+}
+/* .newsletter-info{
+    margin: 0px 165px;
+} */
+.newsletter-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: #0E0E0E;
+}
+.newsletter-body{
+    margin: 0px 64px;
+    text-align: center;
+}
+.newsletter-description{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(14, 14, 14, 0.7);
+}
+.newsletter-subscribe{
+    display: flex;
+    margin: 24px 0px;
+    align-items: center;
+    justify-content: center;
+}
+input[type="email"]{
+    width: 564px;
+    height: 19px;
+    padding: 18px 40px;
+    align-items: top left;
+    background-color: #FFFFFF;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+}
+input[type="email"]::placeholder{
+    
+    font-family: 'Fira Sans', serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: rgba(14, 14, 14, 0.3);
+}
+.newsletter-btn{
+    font-family: 'Fira Sans', serif;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    border: 0px solid;
+    padding: 18px 26px;
+    border-radius: 0px 8px 8px 0px;
+}
+.newsletter-btn:hover{
+    background-color: #F5F5F5;
+    border: 1px solid #006A50;
+    color: #006A50;
+    cursor: pointer;
+}
+.newsletter-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newsletter-ending{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* footer */
+.footer-info{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+.bangladesh2{
+    margin-top: 50px;
+}
+.Bangladesh-title{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: #0E0E0E;
+}
+hr{
+    width: 1122px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+.line{
+    margin: 0px 239px;
+}
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 23px;
+    margin-bottom: 50px;
 }
